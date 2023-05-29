@@ -1,0 +1,21 @@
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
+  .grid-1 {
+    height: auto;
+  }
+}
+
+@media screen and (max-device-width: 1000px),
+  (max-device-height: 1024px) and (orientation: landscape) {
+  .grid-1 {
+    height: auto;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-device-width: 1000px),
+  (max-device-height: 1000px) and (orientation: portrait) {
+  .grid-1 {
+    height: 100svh;
+    gap: 2rem;
+  }
+}
